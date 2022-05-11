@@ -4,6 +4,7 @@ from time import sleep
 button = Button(21)
 lights = TrafficLights(25, 8, 7)
 buzzer = Buzzer(15)
+blink = BlinkAmber (7)
 
 while True:
     print(button.is_pressed)
@@ -23,7 +24,7 @@ while True:
         
         # amber on
         lights.amber.on()
-        lights.blink (0.5,0.5)
+        BlinkAmber.blink (0.5,0.5)
         sleep(1)
         
         # amber off
