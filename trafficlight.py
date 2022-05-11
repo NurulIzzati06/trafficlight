@@ -53,11 +53,11 @@ while True:
         # amber on
         lights.amber.on()
         sleep(0.5)
-        lights.ember.off()
+        lights.amber.off()
         sleep(0.5)
-        lights.ember.on()
+        lights.amber.on()
         sleep(0.5)
-        lights.ember.off()
+        lights.amber.off()
         sleep(1)
 
         # red, buzzer on
