@@ -22,7 +22,7 @@ while True:
                 sleep (1)
                 lights.amber.off()
                 lights.red.on()
-                buzzer.on(1)
+                buzzer.on()
                 sleep (1)
                 lights.red.off()
                 lights.off()
