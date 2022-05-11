@@ -14,20 +14,17 @@ while True:
             print("Goodbye")
             
             while True:
-                button.wait_for_press()
+               # button.wait_for_press()
                 lights.green.on()
                 sleep (1)
-                button.wait_for_release()
                 lights.amber.on(1)
                 sleep (1)
-                button.wait_for_release()
                 lights.red.on(1)
                 sleep (1)
-                button.wait_for_release()
                 buzzer.off()
                 lights.off()
                 buzzer.on()
-                button.wait_for_release()
+                
 
 
 
