@@ -12,13 +12,13 @@ while True:
         else:
             print("Goodbye")
             
-                while True:
-                    lights.on()
-                    buzzer.off()
-                    button.wait_for_press()
-                    lights.off()
-                    buzzer.on()
-                    button.wait_for_release()
-                    
+            while True:
+                lights.on()
+                buzzer.off()
+                button.wait_for_press()
+                lights.off()
+                buzzer.on()
+                button.wait_for_release()
+
 
 
