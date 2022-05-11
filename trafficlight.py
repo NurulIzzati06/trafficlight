@@ -1,10 +1,10 @@
-from gpiozero import Button, TrafficLights, Buzzer, BlinkAmber
+from gpiozero import Button, TrafficLights, Buzzer, LED
 from time import sleep
 
 button = Button(21)
 lights = TrafficLights(25, 7)
 buzzer = Buzzer(15)
-led = BlinkAmber (8)
+blinkamber = LED (8)
 
 while True:
     print(button.is_pressed)
@@ -24,7 +24,7 @@ while True:
         
         # amber on
         lights.amber.on()
-        led.blink ()
+        blinkamber.blink ()
         sleep(1)
         
         # amber off
