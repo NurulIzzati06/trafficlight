@@ -1,4 +1,5 @@
 from gpiozero import Button, TrafficLights, Buzzer
+from time import sleep
 
 button = Button(21)
 lights = TrafficLights(25, 8, 7)
@@ -13,9 +14,14 @@ while True:
             print("Goodbye")
             
             while True:
-                lights.on()
-                buzzer.off()
                 button.wait_for_press()
+                lights.green.on()
+                sleep (1)
+                lights.amber.on(1)
+                sleep (1)
+                lights.red.on(1)
+                sleep (1)
+                buzzer.off()
                 lights.off()
                 buzzer.on()
                 button.wait_for_release()
