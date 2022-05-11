@@ -1,4 +1,4 @@
-from gpiozero import Button, TrafficLights, Buzzer
+from gpiozero import Button, TrafficLights, Buzzer, BlinkAmber
 from time import sleep
 
 button = Button(21)
