@@ -21,12 +21,12 @@ while True:
                 lights.amber.on()
                 sleep (1)
                 lights.amber.off()
+                buzzer.on(1)
                 lights.red.on()
                 sleep (1)
                 lights.red.off()
-                buzzer.off()
                 lights.off()
-                buzzer.on()
+                buzzer.off()
                 
 
 
