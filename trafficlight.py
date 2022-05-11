@@ -23,6 +23,7 @@ while True:
         
         # amber on
         lights.amber.on()
+        lights.blink (0.5,0.5)
         sleep(1)
         
         # amber off
@@ -38,7 +39,7 @@ while True:
         lights.red.off()
         lights.off()
         buzzer.off()
-        sleep(2)
+        sleep(3)
 
         # green on
         lights.green.on()
