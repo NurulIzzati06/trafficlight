@@ -22,13 +22,15 @@ while True:
         sleep(1)
         
         # amber on
-        lights.amber.blink(0.1, 0.2)
         lights.amber.on()
-        sleep(2)
-        
-        # amber off
+        lights.amber.off()
+        lights.amber.on()
         lights.amber.off()
         sleep(1)
+        
+        # amber off
+        #lights.amber.off()
+        #sleep(1)
         
         # red, buzzer on
         lights.red.on()
