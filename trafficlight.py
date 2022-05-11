@@ -19,5 +19,6 @@ while True:
                     lights.off()
                     buzzer.on()
                     button.wait_for_release()
+                    
 
 
