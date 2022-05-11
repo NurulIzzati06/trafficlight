@@ -22,7 +22,7 @@ while True:
         sleep(1)
         
         # amber on
-        lights.amber.blink()
+        lights.amber.blink(0.1, 0.2)
         lights.amber.on()
         sleep(1)
         
