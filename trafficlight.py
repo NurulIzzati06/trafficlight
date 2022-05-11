@@ -12,9 +12,9 @@ while True:
             print("Goodbye")
             
             while True:
+                 lights.blink()
                  button.wait_for_press()
-                 lights.on()
-                 button.wait_for_release()
                  lights.off()
+                 button.wait_for_release()
 
 
