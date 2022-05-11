@@ -23,7 +23,7 @@ while True:
                 button.wait_for_release()
                 lights.red.on(1)
                 sleep (1)
-             button.wait_for_release()
+                button.wait_for_release()
                 buzzer.off()
                 lights.off()
                 buzzer.on()
