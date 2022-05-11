@@ -38,7 +38,7 @@ while True:
         lights.red.off()
         lights.off()
         buzzer.off()
-        sleep(3)
+        sleep(2)
 
         # green on
         lights.green.on()
