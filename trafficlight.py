@@ -24,6 +24,7 @@ while True:
         # amber on
         lights.amber.on()
         lights.amber.off()
+        sleep(0.5)
         lights.amber.on()
         lights.amber.off()
         sleep(1)
