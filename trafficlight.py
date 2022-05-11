@@ -1,7 +1,7 @@
-from gpiozero import Button, LED
+from gpiozero import Button, TrafficLights
 
 button = Button(21)
-led = LED(25)
+lights = TrafficLights(25, 8, 7)
 
 while True:
     print(button.is_pressed)
@@ -10,11 +10,11 @@ while True:
             print("Hello")
         else:
             print("Goodbye")
+            
             while True:
-
-                button.wait_for_press()
-                led.on()
-                button.wait_for_release()
-                led.off()
+                 button.wait_for_press()
+                 lights.on()
+                 button.wait_for_release()
+                 lights.off()
 
 
