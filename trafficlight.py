@@ -15,19 +15,33 @@ while True:
             
             while True:
                 button.wait_for_press()
+                
+                # green on
                 lights.green.on()
                 sleep (1)
+                
+                # green off
                 lights.green.off()
+                sleep(1)
+                
+                # amber on
                 lights.amber.on()
-                sleep (1)
+                sleep(1)
+                
+                # amber off
                 lights.amber.off()
+                sleep(1)
+                
+                # red, buzzer on
                 lights.red.on()
                 buzzer.on()
-                sleep (1)
+                sleep (3)
+                
+                # all light & buzzer off
                 lights.red.off()
                 lights.off()
                 buzzer.off()
-                
+                delay(3)
 
 
 
