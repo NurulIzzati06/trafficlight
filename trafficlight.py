@@ -15,7 +15,7 @@ while True:
         
         # green on
         lights.green.on()
-        sleep (2)
+        sleep (1.5)
         
         # green off
         lights.green.off()
@@ -40,11 +40,11 @@ while True:
         lights.red.off()
         lights.off()
         buzzer.off()
-        sleep(2)
+        sleep(1.5)
 
         # green on
         lights.green.on()
-        sleep (2)
+        sleep (1.5)
         
         # green off
         lights.green.off()
@@ -69,7 +69,7 @@ while True:
         lights.red.off()
         lights.off()
         buzzer.off()
-        sleep(2)
+        sleep(1.5)
     
     else:
         print("Goodbye")
