@@ -38,7 +38,7 @@ while True:
         lights.red.off()
         lights.off()
         buzzer.off()
-        delay(3)
+        sleep(3)
     else:
         print("Goodbye")
         
