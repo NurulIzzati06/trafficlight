@@ -24,7 +24,7 @@ while True:
         
         # amber on
         lights.amber.on()
-        BlinkAmber.blink (0.5,0.5)
+        blink.blink (0.5,0.5)
         sleep(1)
         
         # amber off
